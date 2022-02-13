@@ -19,7 +19,6 @@ title LinkedList - Class Diagram
 +getSize();
 +getIterator(): LinkedListIterator
 
-
 }
 
 ~class uaslp.objetos.list.linkedlist.Node{
