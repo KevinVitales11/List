@@ -16,7 +16,7 @@ public class ArrayList {
         array = new String[size];
     }
 
-    public void addTail(String data) {
+    public void addAtTail(String data) {
         if(size == array.length){
             increaseArraySize();
         }
