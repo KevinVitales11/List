@@ -1,10 +1,12 @@
 package uaslp.objetos.list.linkedlist;
 
-public class LinkedListIterator {
+import src.uaslp.objetos.list.Iterator;
 
-    private Node currentNode;
+public class LinkedListIterator implements Iterator {
 
-    LinkedListIterator(Node startNode) {
+    private uaslp.objetos.list.linkedlist.Node currentNode;
+
+    LinkedListIterator(uaslp.objetos.list.linkedlist.Node startNode) {
        currentNode = startNode;
 
     }
